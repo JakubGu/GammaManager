@@ -20,7 +20,6 @@ Input is handled by a lightweight poller so mouse buttons and keys that can't be
 ## Build & Run
 
 Using dotnet CLI:
-````````
 
 dotnet build dotnet run --project .
 
@@ -43,7 +42,6 @@ On first run the app will create `gamma_config.json` if it doesn't exist and the
 
 ### Example `gamma_config.json`
 
-````````
 json
 {
   "ToggleKey": "F7",
@@ -53,7 +51,6 @@ json
   "BoostedGamma": 2.3,
   "DefaultGamma": 1.0
 }
-`````
 
 Notes:
 - Values are sanitized on save (NaN/Infinity replaced with safe defaults).
