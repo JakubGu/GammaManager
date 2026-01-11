@@ -38,8 +38,6 @@ On first run the app will create `gamma_config.json` if it doesn't exist and the
 - Prompt for initial `BoostedGamma` (press Enter to accept the default `2.3`).
 - `DefaultGamma` is initially set to `1.0` in code but will be overwritten with the detected system gamma if readable on first run. `PreviousGamma` is used to restore the gamma saved before a boost.
 
-{ "ToggleKey": "F1", "ResetKey": "F7", "IncreaseKey": "F8", "DecreaseKey": "F9", "DefaultGamma": 1.0, "BoostedGamma": 2.3, "PreviousGamma": 1.0 }
-
 ### Example `gamma_config.json`
 
 json
